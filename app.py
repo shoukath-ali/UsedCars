@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 app.config['JWT_SECRET_KEY'] = 'usedcars500'
 jwt = JWTManager(app)
-db_path = 'usedCars (2).db'   # Loacl DB Path
+db_path = 'usedCars (2).db'   # Local DB Path
 
 def query_db(query, args=(), one=False):
     conn = sqlite3.connect(db_path)
