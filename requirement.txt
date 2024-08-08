@@ -1,0 +1,7 @@
+flask
+flask_jwt_extended
+sqlite3
+random
+string
+flask_cors
+os
